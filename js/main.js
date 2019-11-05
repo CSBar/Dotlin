@@ -2,7 +2,7 @@ let pdfDoc = null,
   pageNum = 1, 
   pageIsRendering = false,
   pageNumIsPending = null,
-  initUrl = '../docs/sample.pdf';
+  initUrl = './docs/sample.pdf';
 
 const scale = 1,
   canvas = document.querySelector('#pdf-render'),
