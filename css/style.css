@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pdfControl {
+  display: inline;
+}
+
+.top-bar {
+  background: #263238;
+  color: #f57c00;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+  box-shadow: 0 4px 4px -2px #444444;
+    -moz-box-shadow: 0 4px 4px -2px #444444;
+    -webkit-box-shadow: 0 4px 4px -2px #444444;
+}
+
+.btn {
+  background: #f57c00;
+  border-radius: 2px;
+  color: #263238;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+  opacity: 1;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  -webkit-transition: opacity 0.2s; /* Safari */
+  transition: opacity 0.2s;
+}
+
+.page-info {
+  margin-left: 1rem;
+}
+
+.error {
+  background: orangered;
+  color: #ffffff;
+  height: 41.4px;
+  line-height: 41.4px;
+}
+
+.right {
+  float: right;
+}
+
+input {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #f57c00;
+  outline: none;
+  background: none;
+  padding: 5px;
+  margin-right: 1rem;
+  color: #f57c00;
+}
+
+.error input {
+  border-bottom-color: #ffffff;
+  color: #ffffff;
+}
+
+.error button.btn {
+  background-color: #ffffff;
+  color: #263238;
+}
+
+.errorMsg {
+  display: none;
+}
